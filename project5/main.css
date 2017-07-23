@@ -1,0 +1,28 @@
+/*
+CSS for the CS142 project #5 main page
+
+Since CSS uses a global name space for classes we should use class names starting with
+cs142-main- here.
+*/
+body {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.myName {
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.toolbar {
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.sidebar {
+	border-bottom: 1px solid teal;
+	padding: 10px 0;
+	text-align: center;
+}

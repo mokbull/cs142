@@ -1,0 +1,15 @@
+<div class="chooseView"> 
+	<div layout="row" layout-align = "center">
+		<div flex="50" class="userViews userViewsInfo"><a ng-href="#/users/{{user.id}}"> User Info </a></div>
+		<div flex="50" class="userViews userViewsPics"><a ng-href="#/photos/{{user.id}}"> Pictures </a></div>
+	</div>	
+</div>
+
+<div id="wrapper"> 
+	<p><p class="question"> Name: </p><p class="answer">{{user.first_name}} {{user.last_name}}</p></p>
+	<p><p class="question"> ID Number: </p><p class="answer">{{user.id}}</p></p>
+	<p><p class="question"> Where am I? </p><p class="answer">{{user.location}}</p></p>
+	<p><p class="question"> Who am I? </p><p class="answer">{{user.description}}</p></p>
+	<p><p class="question"> What do I do? </p><p class="answer">{{user.occupation}}</p></p>
+
+</div>

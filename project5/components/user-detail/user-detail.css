@@ -1,0 +1,30 @@
+a {
+	text-decoration: none;
+}
+
+.question {
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 1em;
+}
+
+.answer {
+	padding-left: 5em;
+}
+
+.userViews {
+	font-family: arial;
+	text-align: center;
+	font-size: 24px;
+	border-bottom: 1px solid black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.userViewsInfo {
+	background-color: #95a5a6;
+}
+
+.userViewsPics {
+	background-color: #bdc3c7;
+}

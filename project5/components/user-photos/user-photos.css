@@ -1,0 +1,41 @@
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+.userViews {
+	font-family: arial;
+	text-align: center;
+	font-size: 24px;
+	border-bottom: 1px solid black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.userViewsInfo {
+	background-color: #95a5a6;
+}
+
+.userViewsPics {
+	background-color: #bdc3c7;
+}
+
+.photoDisplay {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.photoCreationTime {
+	text-align: center;
+	font-weight: bold;
+}
+
+#wrapper {
+	padding-top: 10px;
+}
