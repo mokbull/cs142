@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-app="cs142App" ng-controller="MainController">
+  <head>
+    <title>{{main.title || "CS142 Class Project"}}</title>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="mainController.js"></script>
+    <script src="headerController.js"></script>
+    <script src="components/states/statesController.js"></script>
+    <script src="modelData/states.js"></script>
+    <script src="p4MainController.js"></script>
+    <link rel="stylesheet" type="text/css" href="components/states/states.css" />
+
+  </head>
+
+  <body>
+  	<div id="view-switcher" ng-controller="P4MainController">
+	  	<button ng-click="flip()"> Switch views! </button>
+	  	<div ng-include="'components/example/exampleTemplate.html'" ng-controller="MainController" ng-show="showExample"> </div>
+	    <div ng-include="'components/states/statesTemplate.html'" ng-controller="StatesController" ng-hide="showExample"> </div>
+	</div>
+  </body>
+
+</html>

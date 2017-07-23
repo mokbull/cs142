@@ -1,0 +1,6 @@
+<!--Replaced this with the Angular template for states component of CS142 Project #4
+    Problem #2.-->    
+<label>Search: <input ng-model="searchText"></label>
+<li ng-repeat="state in statesList | filter: searchText"> {{state}} </li>
+<span> {{searchText}} </span>
+
