@@ -1,0 +1,28 @@
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 13px;
+	color: black;
+	margin: 8px;
+	text-align: center;
+}
+#left { float: left; margin-left: 200px;}
+#right { float: right; margin-right: 200px;}
+
+table {
+	border: 1px solid black;
+}
+
+td {
+	border: 1px solid white;
+}
+
+th {
+	background-color: #cce5ff;
+}
+
+td, th {	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
