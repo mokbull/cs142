@@ -1,0 +1,50 @@
+
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 13px;
+	color: black;
+	margin: 8px;
+}
+
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+	white-space: nowrap;
+}
+
+table, tr {
+	border: 1px solid white;
+}
+
+table, td, th {	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	border-top: 4px;
+	border-bottom: 4px;
+}
+
+th {
+	text-align: left;	
+	color: white;
+	background-color: #687291;
+	margin: 1px;
+}
+
+.row_odd {
+	background-color: #dfe1e7;
+}
+
+.row_even {
+	background-color: #eeeff4;
+}
+
+.price, .quantity, .tprice {
+	text-align: center;
+}
+
+.sum, .left_blank, .right_blank, .row_blank {
+	display: none;
+}
+

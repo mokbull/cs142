@@ -1,0 +1,24 @@
+html, body {
+	overflow: visible;
+}
+
+span {
+	display: inline;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+span #stanford {
+	height: 100%;
+	width: 47%;
+	float: left;
+}
+
+span #mercury {
+	height: 100%;
+	width: 47%;
+	float: right;
+}

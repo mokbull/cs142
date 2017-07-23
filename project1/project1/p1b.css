@@ -1,0 +1,44 @@
+body {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 13px;
+	color: black;
+}
+
+table {
+	border-collapse: collapse;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-top: 10px solid #d0d0ff;
+	border-left: 10px solid #d0d0ff;
+	border-right: 10px solid #d0d0ff;
+	border-bottom: 10px solid #d0d0ff;
+	white-space: nowrap;
+}
+
+td, th {	
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-top: 3px;		
+}
+
+th {
+	vertical-align: bottom;
+	height: 3em;
+	text-align: left;	
+	color: black;
+}
+
+.price, .quantity, .tprice {
+	text-align: center;
+}
+
+.sum {
+	vertical-align: top;
+	border-top: 2px solid black;
+	font-weight: bold;
+	height: 3em;
+}
+
+.left_blank, .right_blank{
+	width: 1em;
+}
